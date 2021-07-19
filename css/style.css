@@ -1,0 +1,4 @@
+img {
+	border-radius: 50%;
+	position: relative; /*!Puede cambiar cuando se realice la animación*/
+}
