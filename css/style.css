@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 }
 
 header {
-	background-color: #06d6a0;
+	background-color: #00b4d8;
 }
 
 .boton_mode {
@@ -39,11 +39,13 @@ header {
 	cursor: pointer;
 	outline: none;
 	color: #212529;
+	font-weight: 600;
 	background-color: #fdfcdc;
 	border: none;
 	border-radius: 8px;
-	box-shadow: 4px 4px 0 0 rgb(109, 108, 108);
-	transition: all 0.5s;
+	box-shadow: 4px 4px 0 0 #050404;
+	transition: all 0.15s;
+	border: solid 1.8px #000000;
 }
 
 .darkmode:hover {
@@ -52,7 +54,22 @@ header {
 }
 
 .darkmode:active {
-	background-color: #3e8e41;
+	background-image: linear-gradient(
+		to right top,
+		#e9ecef,
+		#d0d5d9,
+		#b8bdc3,
+		#a1a7ad,
+		#8a9198,
+		#798087,
+		#687077,
+		#586067,
+		#4a5057,
+		#3c4147,
+		#2e3338,
+		#212529
+	);
+	/*background-color: #3e8e41;*/
 	box-shadow: 0px 0px 0px 0px;
 	transform: translateX(4px) translateY(4px);
 	transition: all 0.15s;
