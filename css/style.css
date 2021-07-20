@@ -25,6 +25,39 @@ header {
 	background-color: #06d6a0;
 }
 
+.boton_mode {
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	display: flex;
+}
+
+.darkmode {
+	padding: 10px 15px;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #212529;
+	background-color: #fdfcdc;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 4px 4px 0 0 rgb(109, 108, 108);
+	transition: all 0.5s;
+}
+
+.darkmode:hover {
+	background-color: #495057;
+	color: white;
+}
+
+.darkmode:active {
+	background-color: #3e8e41;
+	box-shadow: 0px 0px 0px 0px;
+	transform: translateX(4px) translateY(4px);
+	transition: all 0.15s;
+}
+
 .image {
 	padding: 15px;
 	width: 100%;
@@ -46,18 +79,6 @@ nav {
 	background-color: #fed9b7;
 }
 
-nav .logo a {
-	background-color: #0d10cc;
-	float: left;
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 35px 30px;
-	text-decoration: none;
-	margin-left: 50px;
-	text-transform: uppercase;
-}
-
 nav ul {
 	list-style: none;
 	display: flex;
@@ -76,6 +97,18 @@ nav ul a {
 	text-decoration: none;
 	font-size: 30px;
 	font-weight: 800;
+}
+
+nav .logo a {
+	background-color: #0d10cc;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 35px 30px;
+	text-decoration: none;
+	margin-left: 50px;
+	text-transform: uppercase;
 }
 
 nav ul a:hover {
