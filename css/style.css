@@ -49,31 +49,16 @@ header {
 	border: solid 1.8px #000000;
 }
 
-.darkmode:hover {
-	background-color: #495057;
+/* .darkmode:hover {
+	background-color: #212529;
 	color: white;
-}
+} */
 
 .darkmode:active {
-	background-image: linear-gradient(
-		to right top,
-		#e9ecef,
-		#d0d5d9,
-		#b8bdc3,
-		#a1a7ad,
-		#8a9198,
-		#798087,
-		#687077,
-		#586067,
-		#4a5057,
-		#3c4147,
-		#2e3338,
-		#212529
-	);
-	/*background-color: #3e8e41;*/
+	background-color: #6c757d;
 	box-shadow: 0px 0px 0px 0px;
 	transform: translateX(4px) translateY(4px);
-	transition: all 0.15s;
+	transition: all 0.12s;
 }
 
 .image {
@@ -86,7 +71,7 @@ header {
 
 img {
 	border-radius: 50%;
-	position: relative; /*!Puede cambiar cuando se realice la animación*/
+	position: relative;
 	text-align: center;
 	width: 200px;
 	height: 200px;
@@ -101,20 +86,31 @@ nav ul {
 	list-style: none;
 	display: flex;
 	justify-content: flex-end;
-	/*margin: 40px 0 40px 0;*/
 	padding: 14px;
 	margin-right: 10px;
 }
 
-nav ul a {
+/* !Pruebas de estilos para el*/
+nav ul li a {
+	color: transparent;
+	-webkit-text-stroke: 1px #000000;
+	color: #ffc300;
+	font-size: 2.5em;
+	font-weight: 800;
+	text-decoration: none;
+	line-height: 1.2em;
+}
+
+nav ul li a {
 	float: right;
-	display: block;
+	display: flex;
 	color: #0d10cc;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 30px;
 	font-weight: 800;
+	text-transform: capitalize;
 }
 
 nav .logo a {
@@ -129,11 +125,34 @@ nav .logo a {
 	text-transform: uppercase;
 }
 
-nav ul a:hover {
-	background-color: #00afb9;
+nav ul li a:hover {
+	color: aliceblue;
+	-webkit-text-stroke: 1px #000;
+	transition: 00.5s;
 }
 
-nav ul a:active {
+nav ul li a::before,
+nav ul li a::after {
+	content: attr(data-text);
+	position: absolute;
+	transition: 0.5s;
+}
+
+nav ul li a:hover::before {
+	color: #c9184a;
+	z-index: 1;
+	-webkit-text-stroke: 1px #000;
+	transform: translate(5px, -5px);
+}
+
+nav ul li a:hover::after {
+	color: #ffc300;
+	z-index: 2;
+	-webkit-text-stroke: 1px #000;
+	transform: translate(10px, -10px);
+}
+
+/* nav ul a:active {
 	background-color: blueviolet;
 	color: #06d6a0;
-}
+} */
