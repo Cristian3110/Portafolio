@@ -12,13 +12,13 @@ html {
 }
 
 body {
-	background-color: #00afb9;
+	background-color: #00b4d8;
 	overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
 	width: 7px;
-	background: #fff; /*!prueba*/
+	background: rgb(177, 177, 177); /*!prueba*/
 }
 
 header {
@@ -41,12 +41,11 @@ header {
 	outline: none;
 	color: #212529;
 	font-weight: 600;
-	background-color: #fdfcdc;
-	border: none;
+	background-color: #efebce;
 	border-radius: 8px;
 	box-shadow: 4px 4px 0 0 #050404;
 	transition: all 0.15s;
-	border: solid 1.8px #000000;
+	border: solid 2px #000000;
 }
 
 /* .darkmode:hover {
@@ -79,7 +78,7 @@ img {
 
 nav {
 	overflow: hidden;
-	background-color: #fed9b7;
+	background-color: #00b4d8;
 }
 
 nav ul {
@@ -90,13 +89,13 @@ nav ul {
 	margin-right: 10px;
 }
 
-/* !Pruebas de estilos para el*/
 nav ul li a {
-	color: transparent;
+	/*color: transparent;*/
+	/* -webkit-text-stroke: transparent; */
 	-webkit-text-stroke: 1px #000000;
-	color: #ffc300;
-	font-size: 2.5em;
-	font-weight: 800;
+	/* font-size: 2.8em; */
+	font-size: 37px;
+	font-weight: 900;
 	text-decoration: none;
 	line-height: 1.2em;
 }
@@ -104,17 +103,17 @@ nav ul li a {
 nav ul li a {
 	float: right;
 	display: flex;
-	color: #0d10cc;
+	color: #ffb703;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 30px;
-	font-weight: 800;
+	/* font-size: 30px; */
+	/* font-weight: 800; */
 	text-transform: capitalize;
 }
 
 nav .logo a {
-	background-color: #0d10cc;
+	background-color: #03045e;
 	float: left;
 	display: block;
 	color: white;
@@ -126,8 +125,9 @@ nav .logo a {
 }
 
 nav ul li a:hover {
-	color: aliceblue;
-	-webkit-text-stroke: 1px #000;
+	color: #ffffff;
+	-webkit-text-stroke: transparent;
+	/* -webkit-text-stroke: 1px #000; */
 	transition: 00.5s;
 }
 
@@ -146,7 +146,7 @@ nav ul li a:hover::before {
 }
 
 nav ul li a:hover::after {
-	color: #ffc300;
+	color: #ffb703;
 	z-index: 2;
 	-webkit-text-stroke: 1px #000;
 	transform: translate(10px, -10px);
