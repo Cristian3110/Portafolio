@@ -76,6 +76,18 @@ img {
 	height: 200px;
 }
 
+.logo {
+	position: absolute;
+	margin-left: 20px;
+	height: 100px;
+	width: 100px;
+}
+
+#avatar {
+	width: 90px;
+	height: 90px;
+}
+
 nav {
 	overflow: hidden;
 	background-color: #00b4d8;

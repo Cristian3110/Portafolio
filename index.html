@@ -8,7 +8,7 @@
 		<title>Cristian Carrillo</title>
 	</head>
 	<body>
-		<header>
+		<header id="home">	
 			<div class="boton_mode">
 				<button onclick="cambio()" class="darkmode">
 					<span><i style="display: inline" id="sol" class="fas fa-sun"></i></span>
@@ -24,10 +24,8 @@
 		</header>
 		<nav class="nav" id="navbar">
 			<div class="logo">
-				<a href="#default">
-					<h1>logo</h1>
-				</a>
-			</div>
+				<img id="avatar" src="/assets/avataaars.svg" alt="Avatar">
+			</div>	
 			<ul class="nav_list" id="navlinkitems">
 				<li><a href="#home" id="home" data-text="home">home</a></li>
 				<li><a href="#about" id="about" data-text="about">about</a></li>
@@ -37,7 +35,7 @@
 			</ul>
 		</nav>
 		<main>
-			<section id="home">
+			<section >
 				<p>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque voluptatibus, nemo eius
 					nihil fugit inventore at maiores quas illum ab quidem molestiae sapiente debitis unde in
@@ -254,6 +252,6 @@
 			</div>
 		</footer>
 		<script src="https://kit.fontawesome.com/ab358214bf.js" crossorigin="anonymous"></script>
-		<script src="./js/main.js"></script>
+		<script type="text/javascript" src="./js/main.js"></script>
 	</body>
 </html>
