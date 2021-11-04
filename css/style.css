@@ -12,17 +12,27 @@ html {
 }
 
 body {
-	background-color: #00b4d8;
+	background-color: #abc4ff;
 	overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
 	width: 7px;
-	background: rgb(177, 177, 177); /*!prueba*/
+	background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #53575a;
+	border-radius: 10px;
 }
 
 header {
-	background-color: #00b4d8;
+	/*background-color: #0077b6;*/
+	background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #292a5e49;
 }
 
 .boton_mode {
@@ -35,7 +45,7 @@ header {
 .darkmode {
 	box-sizing: border-box;
 	padding: 10px 15px;
-	font-size: 15px;
+	font-size: 12px;
 	text-align: center;
 	cursor: pointer;
 	outline: none;
@@ -90,7 +100,7 @@ img {
 
 nav {
 	overflow: hidden;
-	background-color: #00b4d8;
+	background-color: #abc4ff;
 }
 
 nav ul {
