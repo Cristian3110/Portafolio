@@ -2,6 +2,7 @@
 
 html {
 	scroll-behavior: smooth;
+	transition: all 2s ease-out;
 }
 
 * {
@@ -27,9 +28,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 header {
-	/*background-color: #0077b6;*/
-	background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
-	/* background-image: url(../assets/code.jpg); */
+	background-image: url(/assets/light.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -77,7 +76,6 @@ header {
 	padding: 15px;
 	width: 100%;
 	height: auto;
-	/*background-color: aqua;*/
 	text-align: center;
 }
 
@@ -85,8 +83,8 @@ img {
 	border-radius: 50%;
 	position: relative;
 	text-align: center;
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 }
 
 .logo {
