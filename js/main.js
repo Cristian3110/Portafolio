@@ -15,3 +15,9 @@ function cambio() {
 		palabras.innerHTML = 'Dark Mode';
 	}
 }
+
+// navbar
+
+// scroll navbar
+
+//seleccion activada
