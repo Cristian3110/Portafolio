@@ -1,79 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/style.css" />
-		<title>Cristian Carrillo</title>
-	</head>
-	<body>
-		<header id="home">
-			<div class="header">
-				<div class="boton_mode">
-					<button onclick="cambio()" class="darkmode">
-						<span
-							><i style="display: inline" id="sol" class="fas fa-sun"></i
-						></span>
-						<span
-							><i style="display: none" id="luna" class="fas fa-moon"></i
-						></span>
-						<span id="letras">Light Mode</span>
-					</button>
-				</div>
-				<div class="image">
-					<img src="./assets/cjcc.jpg" alt="" />
-					<div class="description">
-						<h1 class="nombre">Cristian Carrillo</h1>
-						<h3 class="profesion">Software Developer</h3>
-					</div>
-				</div>
-			</div>
-		</header>
-		<nav id="navbar">
-			<div class="logo">
-				<img id="avatar" src="/assets/avataaars.svg" alt="Avatar" />
-			</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Cristian Carrillo</title>
+  </head>
+  <body>
+    <header id="home">
+      <div class="header">
+        <div class="boton_mode">
+          <button onclick="cambio()" class="darkmode">
+            <span
+              ><i style="display: inline" id="sol" class="fas fa-sun"></i
+            ></span>
+            <span
+              ><i style="display: none" id="luna" class="fas fa-moon"></i
+            ></span>
+            <span id="letras">Light Mode</span>
+          </button>
+        </div>
+        <div class="image">
+          <img src="./assets/cjcc.jpg" alt="" />
+          <div class="description">
+            <h1 class="nombre">Cristian Carrillo</h1>
+            <h3 class="profesion">Software Developer</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav id="navbar">
+      <div class="logo">
+        <img id="avatar" src="/assets/avataaars.svg" alt="Avatar" />
+      </div>
 
-			<ul class="nav_list" id="navlinkitems">
-				<li>
-					<a href="#home" data-text="home">home</a>
-				</li>
-				<li>
-					<a href="#about" data-text="about">about</a>
-				</li>
-				<li>
-					<a href="#skill" data-text="skill">skill</a>
-				</li>
-				<li>
-					<a href="#project" data-text="projects">projects</a>
-				</li>
-				<li>
-					<a href="#contact" data-text="contact">contact</a>
-				</li>
-				<span href="#" class="hamburger" id="hamburger">
-					<span class="bar"></span>
-					<span class="bar"></span>
-					<span class="bar"></span>
-				</span>
-			</ul>
-		</nav>
-		<main>
-			<section class="seccion-about" id="about"></section>
-			<section class="seccion-skill" id="skill"></section>
-			<section class="seccion-project" id="project"></section>
-			<section class="seccion-contact" id="contact"></section>
-		</main>
+      <ul class="nav_list" id="navlinkitems">
+        <li>
+          <a href="#home" data-text="home">home</a>
+        </li>
+        <li>
+          <a href="#about" data-text="about">about</a>
+        </li>
+        <li>
+          <a href="#skill" data-text="skill">skill</a>
+        </li>
+        <li>
+          <a href="#project" data-text="projects">projects</a>
+        </li>
+        <li>
+          <a href="#contact" data-text="contact">contact</a>
+        </li>
+        <span href="#" class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </span>
+      </ul>
+    </nav>
+    <main>
+      <section class="seccion-about" id="about">
+        <p class="letra">
+          El estoicismo fue una escuela de pensamiento que nació en el mundo
+          antiguo. Al igual que muchas otras escuelas de pensamiento clásicas,
+          el estoicismo ha aumentado su popularidad en los últimos años. Esta
+          filosofía busca cultivar la virtud, la razón y la atención plena a
+          través de nuestra voluntad y disciplina.
+        </p>
+      </section>
+      <section class="seccion-skill" id="skill"></section>
+      <section class="seccion-project" id="project"></section>
+      <section class="seccion-contact" id="contact"></section>
+    </main>
 
-		<footer id="footer">
-			<div>
-				<h1>footer</h1>
-			</div>
-		</footer>
-		<script
-			src="https://kit.fontawesome.com/ab358214bf.js"
-			crossorigin="anonymous"
-		></script>
-		<script type="text/javascript" src="./js/main.js"></script>
-	</body>
+    <footer id="footer">
+      <div>
+        <h1>footer</h1>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/ab358214bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
 </html>
